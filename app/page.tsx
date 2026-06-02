@@ -196,7 +196,7 @@ export default function Home() {
             <div className="relative flex-shrink-0 w-full max-w-[350px] lg:max-w-[460px]">
               <div className="relative z-10 w-full aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl border-4 border-slate-100 bg-white">
                 <Image 
-                  src="/Obaid_Ullah_Khan.jpeg" 
+                  src="/Obaid.jpeg" 
                   alt="Obaid Ullah Khan - Founder & CEO" 
                   fill
                   quality={80}
