@@ -5,10 +5,11 @@ import { PlayCircle } from "lucide-react";
 import Image from 'next/image';
 
 export default function AIDirectorsLab() {
+  // Fixed TypeScript error by adding 'as const'
   const fadeUp = {
     hidden: { opacity: 0, y: 30 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
-  };
+  } as const;
 
   const stagger = {
     hidden: { opacity: 0 },
@@ -114,6 +115,7 @@ export default function AIDirectorsLab() {
             </div>
           </div>
 
+          {/* Mindset Section */}
           <div>
             <h3 className="text-xl sm:text-2xl font-bold flex items-center gap-3 sm:gap-4 mb-6 sm:mb-8 text-slate-900 border-b border-slate-100 pb-4">
               <span className="p-2 sm:p-2.5 bg-blue-50 text-[#2563eb] rounded-xl shadow-sm"><PlayCircle size={24} /></span>
